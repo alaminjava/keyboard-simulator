@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.typing-display {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.key {
+  padding: 10px;
+  margin: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.key.pressed {
+  background-color: #333;
+  color: #fff;
+}
